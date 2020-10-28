@@ -1,0 +1,9 @@
+---
+# tasks file for lvm
+
+- include_tasks: centos.yml
+
+- include_tasks: manage_lvm.yml
+  when:
+    - lvm_groups is defined
+    - manage_lvm|bool

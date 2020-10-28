@@ -1,0 +1,18 @@
+---
+galaxy_info:
+  author: test
+  description: Ansible role to manage(create, extend, resize) LVM Groups/Logical Volumes.
+
+  license: test
+  min_ansible_version: 1.2
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+  galaxy_tags:
+    - system
+    - lvm
+dependencies: []
